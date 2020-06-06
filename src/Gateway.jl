@@ -125,7 +125,7 @@ function parse_unix_netstat(output::IOStream)
 	throw(error("No gateway found"))
 end
 
-function getgetway()
+function getgateway()
 	if Sys.islinux()
 		open("/proc/net/route") do file
 			return parse_linux_proc_net_route(file)
