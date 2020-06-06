@@ -1,4 +1,4 @@
-# GetGatway
+# GetGatway.jl
 
 Pure julia library for obtaining the IP address of the default gateway
 
