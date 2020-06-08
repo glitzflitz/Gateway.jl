@@ -2,7 +2,7 @@ module Gateway
 
 using Sockets
 
-export getgetway
+export getgateway
 
 function parse_linux_proc_net_route(file::IOStream)
 	# /proc/net/route file:
