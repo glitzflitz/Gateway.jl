@@ -1,7 +1,7 @@
 # Gateway.jl
 [![Build Status](https://travis-ci.org/glitzflitz/Gateway.jl.svg?branch=master)](https://travis-ci.org/glitzflitz/Gateway.jl)
 
-Pure julia library for obtaining the IP address of the default gateway
+Julia library for obtaining IP address of the default gateway
 
 Provides implementation for:
 + Linux
